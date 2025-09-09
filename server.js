@@ -373,7 +373,7 @@ app.get('/', (req, res) => {
     },
     usage: {
       description: 'Use this server to route requests through a static IP and handle SFTP operations',
-      static_ip: '52.59.103.54',
+      static_ip: '18.156.158.53',
       cors: 'Configured for all applications'
     },
     documentation: 'https://github.com/oos/static_IP_proxy'

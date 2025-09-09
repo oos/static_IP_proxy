@@ -35,7 +35,7 @@ In your Netlify dashboard:
 1. Go to **Site Settings** → **Environment Variables**
 2. Add these variables:
    - `PROXY_SERVER_URL` = `https://static-ip-proxy.onrender.com`
-   - `STATIC_IP` = `52.59.103.54`
+   - `STATIC_IP` = `18.156.158.53`
 
 ### **2.2 Create Netlify Function for Proxy**
 
