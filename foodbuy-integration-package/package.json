@@ -1,0 +1,19 @@
+{
+  "name": "foodbuy-procedural",
+  "version": "1.0.0",
+  "description": "Foodbuy procedural script with static IP proxy integration",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test-proxy.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["foodbuy", "procedural", "proxy", "static-ip"],
+  "author": "oos",
+  "license": "MIT"
+}
