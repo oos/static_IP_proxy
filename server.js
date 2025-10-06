@@ -9,6 +9,10 @@ const PORT = process.env.PORT || 10000;
 // Enable CORS
 app.use(cors());
 
+// Body parsing middleware
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
 // Store SFTP connections
 const sftpConnections = new Map();
 
