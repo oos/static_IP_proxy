@@ -1,7 +1,7 @@
 const express = require('express');
 const { createProxyMiddleware } = require('http-proxy-middleware');
 const cors = require('cors');
-const { Client } = require('ssh2-sftp-client');
+const Client = require('ssh2-sftp-client');
 
 const app = express();
 const PORT = process.env.PORT || 10000;
